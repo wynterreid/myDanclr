@@ -2,3 +2,32 @@
 @import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Merienda");
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=News+Cycle");
+
+.registerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 1%;
+  background-color: whitesmoke;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#item {
+  width: 340px;
+}
+
+.submitbutton {
+  width: 175px;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.submitbutton:hover {
+  background-color: #fc9036;
+  cursor: pointer;
+}
