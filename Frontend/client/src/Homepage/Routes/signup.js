@@ -19,6 +19,7 @@ const Signup = ({
   const path = match.path;
   return (
     <>
+      <Header />
       <Main />
 
       <form
@@ -57,7 +58,7 @@ const Signup = ({
           name="profile_pic"
           onChange={handleChange}
         />
-        <button className="submitbutton" type="submit">
+        <button className="registerButton" type="submit">
           Sign Up
         </button>
       </form>

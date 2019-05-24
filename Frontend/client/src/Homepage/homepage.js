@@ -8,6 +8,7 @@ const Homepage = props => {
   return (
     <>
       <div className="HomepagePage">
+        <Header />
         <Main />
         <SignupForm />
       </div>
