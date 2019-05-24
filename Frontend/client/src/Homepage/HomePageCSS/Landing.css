@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Merienda");
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Merienda");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=News+Cycle");
+
+/* navbar */
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: fit-content;
+  border-radius: 7px;
+  padding-right: 5px;
+  padding-left: 4px;
+}
+.logo {
+  width: 23px;
+  opacity: 0.8;
+}
+.searchContainer {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 450px;
+}
+
+.searchIcon {
+  padding: 0.5rem;
+}
+
+.searchBox {
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+}
+/* main */
+#navlink1 {
+  font-family: "Gochi Hand";
+  color: white;
+  margin-left: 5px;
+  font-size: 24px;
+}
+#navlink2 {
+  font-family: "Gochi Hand";
+  color: white;
+  margin-left: 25px;
+  font-size: 24px;
+}
+
+#navlink1:hover {
+  text-decoration: underline;
+  color: #fc9036;
+}
+
+#navlink2:hover {
+  text-decoration: underline;
+  color: #720000;
+}
+
+#title {
+  font-family: "Gochi Hand";
+  font-size: 95px;
+  text-align: -webkit-center;
+  color: white;
+  margin-top: -30px;
+}
+
+.slogan {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin-top: 250px;
+}
+
+#come {
+  margin-left: 10px;
+}
+
+#stay {
+  margin-right: 10px;
+}
+/* buttons*/
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+
+.SignUp {
+  text-align: -webkit-center;
+}
+
+.RegisterButton {
+  background: #fc9036;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: black;
+  border-width: thin;
+  height: 4em;
+  width: 12em;
+}
+
+.LoginButton {
+  background: #720000;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: black;
+  border-width: thin;
+  height: 4em;
+  width: 12em;
+}
+
+.RegisterButton:hover {
+  cursor: pointer;
+  position: inherit;
+  left: calc(50% - 4em);
+  top: calc(50% - 2em);
+  height: 4em;
+  width: 12em;
+
+  background: -webkit-linear-gradient(top, #555, #333);
+  background: #fc9036;
+  color: white;
+  transform-origin: 50% 4em;
+
+  color: white;
+  border-radius: 5px;
+
+  font-size: 16px;
+
+  -webkit-animation: wiggle 1.5s linear infinite;
+  animation: wiggle 1.5s linear infinite;
+}
+
+.LoginButton:hover {
+  cursor: pointer;
+  position: inherit;
+  left: calc(50% - 4em);
+  top: calc(50% - 2em);
+  height: 4em;
+  width: 12em;
+
+  background: -webkit-linear-gradient(top, #555, #333);
+  background: #720000;
+  color: white;
+  transform-origin: 50% 4em;
+
+  font-size: 16px;
+  border-radius: 5px;
+
+  -webkit-animation: wiggle 1.5s linear infinite;
+  animation: wiggle 1.5s linear infinite;
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+  }
+  10% {
+    -webkit-transform: rotateZ(-15deg);
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    -webkit-transition: rotateZ(10deg);
+    transition: rotateZ(10deg);
+  }
+  25% {
+    -webkit-transition: rotateZ(-10deg);
+    transition: rotateZ(-10deg);
+  }
+  30% {
+    -webkit-transition: rotateZ(6deg);
+    transition: rotateZ(6deg);
+  }
+  35% {
+    -webkit-transform: rotateZ(-4deg);
+    transform: rotateZ(-4deg);
+  }
+  40% {
+    transform: rotateZ(7deg);
+  }
+  50% {
+    transform: rotateZ(-6deg);
+  }
+  60% {
+    transform: rotateZ(10deg);
+  }
+  70% {
+    transform: rotateZ(-14deg;);
+  }
+  80% {
+    transform: rotateZ(3deg);
+  }
+  90% {
+    transform: rotateZ(-7deg);
+  }
+  100% {
+    -webkit-transition: rotateZ(0);
+    transition: rotateZ(0);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  height: 80px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}

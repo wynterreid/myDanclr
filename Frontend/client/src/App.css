@@ -23,24 +23,8 @@
   font-family: "Merienda";
 }
 
-h1 {
-  font-family: "Gochi Hand";
-  font-size: 75px;
-  text-align: -webkit-center;
-  color: white;
-}
 h2 {
   font-family: "Merienda";
-}
-.logo {
-  width: 23px;
-  opacity: 0.8;
-}
-
-.Main {
-  display: block;
-  text-align: -webkit-center;
-  color: white;
 }
 
 .loginForm {
@@ -60,33 +44,6 @@ h2 {
   height: 46px;
 }
 
-form {
-  display: grid;
-  width: 250px;
-}
-
-.SignUp {
-  text-align: -webkit-center;
-}
-
-.searchContainer {
-  display: flex;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  width: 450px;
-}
-
-.searchIcon {
-  padding: 0.5rem;
-}
-
-.searchBox {
-  border: 0;
-  padding: 0.5rem 0.5rem 0.5rem 0;
-  flex: 1;
-}
-
 .SignUpInfo {
   display: flex;
   justify-content: center;
@@ -95,109 +52,6 @@ form {
 
 .title {
   padding-top: 150px;
-}
-
-.RegisterButton {
-  position: inherit;
-  left: calc(50% - 4em);
-  top: calc(50% - 2em);
-  height: 4em;
-  width: 8em;
-
-  background: -webkit-linear-gradient(top, #555, #333);
-  background: #fc9036;
-  color: white;
-  transform-origin: 50% 4em;
-
-  width: 200px;
-  color: white;
-  border-radius: 5px;
-
-  font-size: 16px;
-
-  -webkit-animation: wiggle 1.5s linear infinite;
-  animation: wiggle 1.5s linear infinite;
-}
-
-.LoginButton {
-  position: inherit;
-  left: calc(50% - 4em);
-  top: calc(50% - 2em);
-  height: 4em;
-  width: 8em;
-
-  background: -webkit-linear-gradient(top, #555, #333);
-  background: #720000;
-  color: white;
-  transform-origin: 50% 4em;
-
-  width: 200px;
-  font-size: 16px;
-  border-radius: 5px;
-
-  -webkit-animation: wiggle 1.5s linear infinite;
-  animation: wiggle 1.5s linear infinite;
-}
-
-@-webkit-keyframes wiggle {
-  0% {
-    -webkit-transform: rotateZ(0);
-    transform: rotateZ(0);
-  }
-  10% {
-    -webkit-transform: rotateZ(-15deg);
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    -webkit-transition: rotateZ(10deg);
-    transition: rotateZ(10deg);
-  }
-  25% {
-    -webkit-transition: rotateZ(-10deg);
-    transition: rotateZ(-10deg);
-  }
-  30% {
-    -webkit-transition: rotateZ(6deg);
-    transition: rotateZ(6deg);
-  }
-  35% {
-    -webkit-transform: rotateZ(-4deg);
-    transform: rotateZ(-4deg);
-  }
-  40% {
-    transform: rotateZ(7deg);
-  }
-  50% {
-    transform: rotateZ(-6deg);
-  }
-  60% {
-    transform: rotateZ(10deg);
-  }
-  70% {
-    transform: rotateZ(-14deg;);
-  }
-  80% {
-    transform: rotateZ(3deg);
-  }
-  90% {
-    transform: rotateZ(-7deg);
-  }
-  100% {
-    -webkit-transition: rotateZ(0);
-    transition: rotateZ(0);
-  }
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.nav {
-  height: 80px;
-  width: 500px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .Timeline {
